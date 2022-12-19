@@ -1,0 +1,11 @@
+#ifndef ALBANY_PACKAGES_H
+#define ALBANY_PACKAGES_H
+
+// ======================== Albany packages macros ============================== //
+
+#cmakedefine ALBANY_LANDICE
+
+// Whether pde examples should be built
+#cmakedefine ALBANY_DEMO_PDES
+
+#endif // ALBANY_PACKAGES_H

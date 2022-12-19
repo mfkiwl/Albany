@@ -10,6 +10,8 @@ configure_file (${CMAKE_CURRENT_SOURCE_DIR}/Albany_config.h.in
                 ${CMAKE_CURRENT_BINARY_DIR}/Albany_config.h)
 configure_file (${CMAKE_CURRENT_SOURCE_DIR}/Albany_GitVersion.h.in
                 ${CMAKE_CURRENT_BINARY_DIR}/Albany_GitVersion.h)
+configure_file (${CMAKE_CURRENT_SOURCE_DIR}/Albany_packages.h.in
+                ${CMAKE_CURRENT_BINARY_DIR}/Albany_packages.h)
 
 include(CheckCXXSourceCompiles)
 
