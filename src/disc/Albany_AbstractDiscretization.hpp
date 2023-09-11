@@ -228,10 +228,10 @@ public:
   getMeshStruct() const = 0;
 
   //! Set stateArrays
-  void setStateArrays(StateArrays& sa) { stateArrays = sa; }
+  void setStateArrays(StateArrays& sa) { m_stateArrays = sa; }
 
   //! Get stateArrays
-  StateArrays& getStateArrays() { return stateArrays; }
+  StateArrays& getStateArrays() { return m_stateArrays; }
 
   //! Get stateArray of given type
   StateArrayVec& getStateArrays(const StateStruct::StateType type) {
